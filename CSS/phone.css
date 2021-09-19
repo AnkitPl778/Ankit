@@ -1,0 +1,113 @@
+/* ###### DEVICE ###### */
+
+.logo img {
+  height: 6vh;
+  width: 6vh;
+  margin: 0px 3px;
+  border-radius: 10vh;
+  border-top-left-radius: 10vh;
+  border-top-right-radius: 10vh;
+  border-bottom-right-radius: 10vh;
+  border-bottom-left-radius: 10vh;
+  
+}
+#navbar ul li a {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Graduate", cursive;
+  padding: 0px;
+  margin: 2vh 1vw;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+
+  #home::before {
+    content: "";
+    position: fixed;
+    background: url("https://images3.alphacoders.com/628/thumb-1920-628887.jpg");
+    /* background: url("https://images4.alphacoders.com/805/805233.jpg") no-repeat center center/cover;
+          background: url("https://images3.alphacoders.com/608/608048.jpg") no-repeat center center/cover;
+          background: url("https://images5.alphacoders.com/608/608037.jpg") no-repeat center center/cover; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    margin-top: 94vh;
+  }
+
+  #navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    flex-direction: column;
+    position: relative;
+    left: 9rem;
+}
+}
+#home h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0vh;
+  top: 35vh;
+  padding: 2vh 6vw;
+}
+body {
+  background: url("https://i.pinimg.com/originals/75/da/25/75da252d0b6f6392b355a8c338b1a4ac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 26vh;
+}
+
+.primary {
+  font-size: 2.2rem;
+  border: 2px solid;
+  background-color: #000000a1;
+  border-radius: 4vh;
+  cursor: default;
+  margin-top: -5vh;
+  position: absolute;
+  left: 0vw;
+  top: 34vh;
+}
+
+#user {
+  /* display: flex;
+  flex-direction: column; */
+  color: white;
+  background-color: #000000a1;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Cinzel Decorative", cursive;
+  position: absolute;
+  left: -8vw;
+  top: 50vh;
+  padding: 1vh 11vw;
+  margin: 0vh 10vw;
+  right: -29px;
+}
+.Age {
+  margin-left: 9vh;
+  margin-top: 3vh;
+  padding: 0vh 1vw;
+  cursor: pointer;
+}
+
+#user a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: -4vh;
+  font-family: "Cinzel Decorative", cursive;
+  position: relative;
+  padding: 0vh 10vw;
+  cursor: pointer;
+  list-style: none;
+}
+footer {
+  display: none;
+}

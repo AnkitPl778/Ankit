@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About my first page *LoL*</title>
+  <link rel="stylesheet" href="web.css">
+  <style>
+    body {
+      margin: 0;
+      background-color: rgb(19, 39, 43);
+    }
+
+    .p {
+      color: rgb(255, 0, 0);
+      font-size: 33px;
+
+    }
+
+    .chck {
+      color: rgb(255, 0, 0);
+      font-size: 33px;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(217, 255, 0);
+
+    }
+
+
+
+    button:hover {
+      /* color: rgb(128, 0, 0); */
+      background-color: rgba(29, 23, 23, 0.829);
+
+    }
+
+    /* a:visited{
+
+        color: rgb(255, 255, 255);
+      } */
+    a {
+      color: crimson;
+
+
+    }
+
+    button {
+      cursor: pointer;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      padding: 11px 37px;
+      border: rgb(255, 1, 1) 8px;
+      border-style: outset;
+      font-size: x-large;
+      border-radius: 36px;
+      color: white;
+      display: block;
+      margin: initial;
+
+    }
+
+    .nam {
+      font-size: 90px;
+
+
+
+    }
+
+    /* .img{
+        height: 25cm;
+        width: 30cm;
+        cursor: pointer;
+        /* background-color: rgba(55, 154, 184, 0.582); */
+    /* background-image: url('https://images4.alphacoders.com/114/1140982.jpg'); */
+    /* background-image: url("../../media/examples/lizard.png"); 
+        background-repeat: no-repeat;
+        background-position: center center;} */
+
+
+
+
+
+    .curss {
+
+      cursor: pointer;
+      border-radius: 18px;
+
+    }
+
+    .btn {
+
+      /* background-color: rgb(255, 255, 255) ; */
+      margin: 15px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+
+    .USERID {
+      /* background-image: linear-gradient(rgba(68, 68, 145, 0.685), rgba(255, 255, 0, 0.5)), ; */
+
+      height: 100%;
+      width: 100%;
+
+      background-image: url("https://images3.alphacoders.com/114/1144293.jpg");
+      /* background-image: url("https://images4.alphacoders.com/114/1140982.jpg"); */
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 10px;
+      background-size: cover;
+      /* border-radius: 12px; */
+    }
+
+
+    p {
+      color: rgb(255, 6, 6);
+
+    }
+
+
+
+    .navbar {
+
+      background-color: rgb(0, 0, 0);
+      /* border-radius: 36px; */
+      background-image: url("https://c4.wallpaperflare.com/wallpaper/590/506/446/dragon-ball-son-goku-ultra-instict-multiple-display-wallpaper-preview.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: stretch;
+      /* position:fixed; */
+    }
+
+
+    .navbar ul {
+      overflow: auto;
+
+      margin: 0;
+
+    }
+
+    .navbar li {
+      float: left;
+      list-style: none;
+      padding: 2vh 1vw;
+
+    }
+
+    .navbar li a {
+
+      padding: 1vh 1vw;
+    }
+
+    .search {
+
+      float: right;
+      color: silver;
+      padding: 14px 64px;
+    }
+
+    @media only screen and (max-width: 400px) {
+
+
+      .curss {
+
+        width: 18vh;
+      }
+
+      .search {
+
+        display: none;
+      }
+
+      .p {
+        font-size: 3vh;
+        color: rgb(226, 255, 59);
+
+      }
+
+      .navbar {
+
+        background-position-x: 27%;
+      }
+
+      .navbar li {
+
+        padding: 2vh 15vw;
+        position: relative;
+        left: -12vh;
+      }
+
+      .USERID {
+
+
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/406/731/736/anime-boys-gojo-satoru-hd-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+
+
+    .navbar li a:hover {
+
+      color: white;
+    }
+
+
+    .navbar input {
+
+      border-radius: 18px;
+      border: 2px solid rgb(168, 168, 168);
+      padding: 2px 21px;
+      text-align: center;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav Class="navbar">
+      <ul>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="https://wall.alphacoders.com/tag/satoru-gojo-wallpapers" target="_blank">websit you'll
+            like</a></li>
+        <li><a href="#">Contact us</a></li>
+        <div class="search">
+          <input type="text" name="search" id="search" placeholder="search?">
+
+        </div>
+
+      </ul>
+
+    </nav>
+
+
+  </header>
+  <form action="backend.php">
+    <div class="USERID">
+      <label class="p" for="username">username :</label>
+      <input class="curss" type="email" name="MyName" id="username" />
+
+      <div>
+        <br />
+        <label class="p" for="password">password :</label>
+
+        <input class="curss" type="password" name="Mypass" id="password" />
+      </div>
+      <div>
+        <br />
+        <a href="#" class="p"> Gender :</a>
+        <select class="curss" name="Gender" id="Gender"> Gender
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div>
+        <br />
+        <label class="chck" for="checkbox">Are You Sure? :</label>
+        <input type="checkbox" value="" id="checkbox" checked />
+      </div>
+
+      <div><br>
+        <!-- <br /><input class="btn" type="button" value="Login" /> -->
+        <input class="btn" type="reset" value="Reset" />
+      </div><br>
+      <button class="ptr">
+        Click Here to Visit BoBo
+      </button>
+      <!-- <p class="img">
+
+          
+        </p> -->
+      <p class="nam">Hey ! its me Ankit</p>
+    </div>
+</body>
+
+</html>

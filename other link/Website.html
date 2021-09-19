@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit's Blog</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Graduate&family=Stick+No+Bills:wght@800&display=swap"
+    rel="stylesheet">
+</head>
+<style>
+  * {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgba(0, 0, 0, 0.192); */
+  }
+
+  #home::before {
+    content: "";
+    /* display: flex; */
+    position: absolute;
+    /* overflow: hidden; */
+    color: white;
+    background: url("https://images8.alphacoders.com/114/1146697.jpg");
+    /* url("https://wallpapers.com/images/high/satoru-gojo-jujutsu-kaisen-infinite-galaxy-edit-pjwt823pt7tthvmy.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position-x: right, 81px;
+    background-position-y: 0px, -256px; */
+    /* background-color: black;  */
+    width: 100%;
+    height: 222%;
+    /* resize: 30px; */
+    /* bottom: 0px; */
+    /* background-size: 693px, 527px; */
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 10vw;
+  }
+
+  #home h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    font-family: "Stick No Bills", sans-serif;
+    position: relative;
+    top: 4.5rem;
+    font-size: 3rem;
+  }
+
+  #home img {
+
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 8vh;
+    width: 9vh;
+    border-radius: 13vh;
+  }
+
+
+  /* .right {
+    border: 2px solid yellow;
+    display: inline-block;
+    position: absolute;
+    right: 33px;
+    top: 12px;
+  } */
+
+  #navbar::before {
+    content: "";
+    background-color: rgb(3, 2, 2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+  }
+
+  #navbar {
+    /* display: flex; */
+    position: relative;
+  }
+
+  #navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0vh auto;
+    list-style: none;
+    /* background-color: rgba(0, 0, 0, 0.541); */
+    /* position: sticky; */
+  }
+
+  /* #navbar li {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  #navbar li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 2vh 2vw;
+  }
+
+  #navbar li a:hover,
+  a.ACTIVE {
+    text-decoration: underline;
+    color: white;
+
+    height: 8vh;
+
+  }
+
+  p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.25rem;
+    overflow: hidden;
+    margin: 2vh 4vw;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 23px;
+    padding: 3vh 3vw;
+    position: relative;
+    top: 20vh;
+    text-align: center;
+
+  }
+
+  /* p::after{
+  content: "";
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 5rem;
+  height: 209% ;
+  list-style: none;
+} */
+
+  /* p::before {
+
+    content: "";
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+  } */
+
+  h3 {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 23px;
+    padding: 2vh 3vw;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    right: 0.5rem;
+    text-align: center;
+    font-family: "Cinzel Decorative", cursive;
+  }
+
+  @media only screen and (max-width: 400px) {
+    /* #navbar::before {
+      content: "";
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      opacity: 0.9;
+    } */
+
+    p {
+
+      font-size: 1rem;
+    }
+
+    #navbar ul {
+      font-size: 1.1rem;
+      padding-top: 4vh;
+      /* background-color: rgba(0, 0, 0, 0.678); */
+    }
+
+    #home::before {
+
+      background: url("https://mfiles.alphacoders.com/897/thumb-1920-897666.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      opacity: 0.9;
+      filter: blur(5px);
+      -webkit-filter: blur(0.8px);
+      position: fixed;
+      /* overflow: -moz-hidden-unscrollable; */
+    }
+
+    /* .para {
+
+      overflow: hidden;
+      overflow: scroll;
+
+    } */
+    #home h1 {
+      font-size: 2rem;
+    }
+
+    h3 {
+
+      font-size: 1.2rem;
+
+    }
+
+  }
+
+  /* @media (min-width: 690px) and (max-width: 1240px) { */
+  @media (min-width: 400px) and (max-width: 1240px) {
+
+
+    #navbar ul {
+      /* font-size: 1.1rem; */
+      padding-top: 4vh;
+      /* background-color: rgba(0, 0, 0, 0.678); */
+    }
+
+    #home h1 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+
+      font-size: 1.5rem;
+
+    }
+
+    p {
+      font-size: 1.25rem;
+      /* flex-wrap: wrap; */
+      /* overflow: hidden; */
+      padding: 10px;
+      margin: 1vh 0vw;
+
+    }
+
+
+    #home::before {
+
+      background: url("https://mfiles.alphacoders.com/897/thumb-1920-897666.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      opacity: 0.9;
+      filter: blur(5px);
+      -webkit-filter: blur(0.8px);
+      position: fixed;
+      /* overflow: -moz-hidden-unscrollable; */
+    }
+
+    /* @media (min-width: 400px) and (max-width: 689px) {
+#home::before{
+      display: none;
+}
+
+
+  } */
+  }
+</style>
+
+<body>
+  <nav id="navbar">
+
+    <ul>
+      <li class="item"><a href="Fitnssblog.html">Home</a></li>
+      <li class="item"><a href="#">About Us </a></li>
+      <li class="item"><a href="#">Website </a></li>
+      <li class="item"><a href="#foot">Contact Us </a></li>
+
+    </ul>
+  </nav>
+  <!-- <div class="right">right</div> -->
+  </header>
+  <section id="home">
+    <div class="logo">
+      <img src="logo.jpg" alt="FitnessBlog">
+    </div>
+    <h1 class="primary">Welcome To MY Fitness Blog
+      <hr>
+    </h1>
+    <section>
+      <h3> Fastest Way To Gain Muscles </h3>
+
+    </section>
+    <br>
+    <section id="para">
+      <p>Gaining muscles and getting bigger like a Hulk or some famous Bodybuilders like Arnold, Ronnie Coleman is every
+        kids dream, and to achieve it in their teenage is what they desire but nobody has an idea about how to achieve
+        it or the right way, the fastest way to achieve it. So, here is how you can gain muscles the fastest way
+        possible
+        firstly you have to get this clear that getting bigger muscles without using steroids is impossible because it
+        is not, anyone can achieve it. It may take some time but still, you can achieve the desired body you just have
+        to
+        follow the correct steps.</p>
+      <!-- <br> -->
+      <p> You have to know your fat percentage if you have more than 20 percent of fat
+        then you have to cut off your calorie intake and you have to do cardio starting with jumping jacks 3 sets of 50
+        repetitions each with 30-second rest in between sets, Burpees 3 sets of 30 repetitions each, rope jumping 3 sets
+        of 100 repetitions each with 30-second rest, Alternate knee raises 3 sets of 10 minutes each set, Squats 3 sets
+        of 20 repetitions each with 30-second rest, Push-ups 3 sets of 10 repetitions each if you are not able to do 10
+        repetitions then make it to 5. By doing these Cardio will burn your calories as fast as possible. Now the best
+        thing to do is to train your muscles by joining a nearby gym and starting weight training. I have seen many
+        people in the gym wasting their time and money by taking so much rest that their muscles come to a resting point
+        after
+        which they cannot do any more repetitions, which is an obstacle for you in this journey of gaining muscles as
+        fast as possible. You have to take as little rest as you can and drinking small gulps of water during your rest,
+        which will make you hydrated and hence enhancing your performance.</p>
+      <!-- <br> -->
+      <p>Best way to train your muscles is by following a simple routine that is for a beginner you have to do compound
+        exercises that is training your overall body.
+        Nowadays every gym has these compound machines even if it doesn’t then follow these workouts, firstly start with
+        lat pull down 3 sets of 8-10 repetitions each and always take rest in between these workouts as little as
+        possible. Then do chest press 3 sets of 8-10 repetitions each, shoulder press 3 sets of10 repetitions each,
+        alternate Bicep’s curls and Triceps parallel bar dips, do both of them with 3 sets of 10-12 repetitions and
+        weighted
+        squats 3 sets of 10 repetitions each.</p>
+      <!-- <br> -->
+      <p> as you gain some strength and you are at your intermediate level, you have to follow this workout routine,
+        on Monday train your Back muscle groups and biceps, on Tuesday go for Chest and Triceps, on Wednesday train your
+        legs and shoulders, and then repeat the same for Thursday, Friday, Saturday. On Sundays you take rest as much as
+        you
+        can, the more your muscle gets its rest the bigger it will grow. Now to the diet portion, you need to eat low
+        carbs and high protein diets include one non-veg item in your meal eat as frequently as you can in a day take
+        small meals. You can take protein supplements to fulfill your daily protein intake but that’s not compulsory you
+        can fulfill it with natural sources too. Always take 8-9 hours of sleep, if you don’t sleep enough your cortisol
+        levels will be increased and hence lowers your testosterone levels which will adversely affect your muscles.
+        Dedicate yourself to these workout routines, the more dedication you have the fastest you will gain muscles.
+      </p>
+    </section>
+
+
+
+    <a href="#" class="ACTIVE" type="hidden"></a>
+</body>
+
+</html>
