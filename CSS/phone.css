@@ -82,11 +82,12 @@
 }
 
 #user {
- 
+  display:flex;
+  flex-direction:row;
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
-  text-align: left;
+  text-align: center;
   font-size: 1.2rem;
   font-family: "Cinzel Decorative", cursive;
   position: absolute;
