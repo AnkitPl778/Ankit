@@ -36,7 +36,6 @@
     opacity: 1;
     filter: blur(1px);
     -webkit-filter: blur(1px)
-    /*overflow: -moz-hidden-unscrollable;*/
     background-position-y: 0vh,17vh;
     /*margin-top: 94vh;*/
   }
@@ -82,8 +81,6 @@
 }
 
 #user {
-  display:block;
-  /*flex-direction:row;*/
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
