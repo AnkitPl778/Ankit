@@ -60,7 +60,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+  height: 100%;
+  top: 10vh;
 }
 
 .primary {
@@ -76,8 +77,8 @@ body {
 }
 
 #user {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column; 
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
