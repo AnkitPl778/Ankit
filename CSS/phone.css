@@ -89,7 +89,7 @@
   text-align: center;
   font-size: 1.2rem;
   font-family: "Cinzel Decorative", cursive;
-  position: relative;
+  position: fixed;
   left: -8vw;
   top: 50vh;
   padding: 1vh 11vw;
