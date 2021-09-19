@@ -82,8 +82,8 @@
 }
 
 #user {
- /* display:flex;
-  flex-direction:row;*/
+  display:block;
+  /*flex-direction:row;*/
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
