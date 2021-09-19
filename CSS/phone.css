@@ -82,8 +82,8 @@
 }
 
 #user {
-  /*display: flex;
-  flex-direction: column;*/ 
+  display: flex;
+  flex-direction: column; 
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
