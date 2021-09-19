@@ -56,7 +56,7 @@
   align-items: center;
   flex-direction: column;
   left: 0vh;
-  top: 33vh;
+  top: 36vh;
   padding: 2vh 6vw;
 }
 /*body {
@@ -70,15 +70,15 @@
 }*/
 
 .primary {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   border: 2px solid;
   background-color: #000000a1;
   border-radius: 4vh;
   cursor: default;
   margin-top: -5vh;
-  position: absolute;
+  /*position: absolute;
   left: 0vw;
-  top: 34vh;
+  top: 34vh;*/
 }
 
 #user {
