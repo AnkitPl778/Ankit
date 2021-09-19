@@ -76,7 +76,7 @@ a {
   width: 100%;
   z-index: -1;
   opacity: 1;
-  margin-top: 94vh;
+  /*margin-top: 94vh;*/
 }
 #home h1 {
   color: white;
