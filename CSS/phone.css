@@ -36,7 +36,7 @@
     opacity: 1;
     filter: blur(1px);
     -webkit-filter: blur(1px)
-    overflow: -moz-hidden-unscrollable;
+    /*overflow: -moz-hidden-unscrollable;*/
     background-position-y: 0vh,17vh;
     /*margin-top: 94vh;*/
   }
@@ -86,7 +86,7 @@
   color: white;
   background-color: #000000a1;
   border-radius: 23px;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-family: "Cinzel Decorative", cursive;
   position: absolute;
