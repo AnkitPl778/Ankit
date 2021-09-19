@@ -60,7 +60,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 26vh;
-  position: fixed;
+  top: 0px;
 }
 
 .primary {
