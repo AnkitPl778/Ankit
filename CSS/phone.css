@@ -9,6 +9,7 @@
   border-top-right-radius: 10vh;
   border-bottom-right-radius: 10vh;
   border-bottom-left-radius: 10vh;
+  position: fixed;
   
 }
 #navbar ul li a {
