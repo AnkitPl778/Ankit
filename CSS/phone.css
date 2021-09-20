@@ -3,7 +3,7 @@
 .logo img {
   height: 6vh;
   width: 6vh;
-  margin: 0px 3px;
+  margin: 3vh ;
   border-radius: 10vh;
   border-top-left-radius: 10vh;
   border-top-right-radius: 10vh;
@@ -17,7 +17,7 @@
   font-size: 1.1rem;
   font-family: "Graduate", cursive;
   padding: 0px;
-  margin: 0vh 1vw;
+  margin: 3vh 1vw;
   text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
