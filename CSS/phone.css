@@ -17,7 +17,7 @@
   font-size: 1.1rem;
   font-family: "Graduate", cursive;
   padding: 0px;
-  margin: 0vh 1vw;
+  margin: 2vh 1vw;
   text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
@@ -58,6 +58,10 @@
   left: 0vh;
   top: 36vh;
   padding: 2vh 6vw;
+}
+#home{
+  
+  padding: 0vh 4vw;
 }
 /*body {
   background: url("https://i.pinimg.com/originals/75/da/25/75da252d0b6f6392b355a8c338b1a4ac.jpg");
