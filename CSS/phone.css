@@ -36,7 +36,7 @@
     z-index: -1;
     opacity: 1;
     filter: blur(1px);
-    -webkit-filter: blur(1px)
+    -webkit-filter: blur(1px);
     background-position-y: 0vh,17vh;
     /*margin-top: 94vh;*/
   }
