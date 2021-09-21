@@ -20,6 +20,13 @@
   margin: 2vh 1vw;
   text-decoration: none;
 }
+#home{
+  
+  padding: 0vh 4vw;
+}
+#home::before {
+  position: fixed;
+}
 @media only screen and (max-width: 600px) {
 
   #home::before {
